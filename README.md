@@ -1,12 +1,12 @@
 # ZoomMeetRecorder
 
 ## Project Description
-ZoomMeetRecorder is a tool designed to simplify the process of recording Zoom meetings. This application captures audio and video from meetings and saves them for later access and reference.
+A simple tool that automatically joins a specified Zoom meeting. You can also configure Cron or Windows Task Scheduler to execute this script at a specific date and time.
 
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pinkskot/ZoomMeetRecorder.git
+   git clone https://github.com/pinkskot/ZoomMeetRecorder
    ```
 2. Navigate into the project directory:
    ```bash
@@ -14,22 +14,13 @@ ZoomMeetRecorder is a tool designed to simplify the process of recording Zoom me
    ```
 3. Install the required dependencies:
    ```bash
-   npm install
+   pip install -r requirements.txt
    ```
 
 ## Usage
 To start the ZoomMeetRecorder, run the following command:
 ```bash
-npm start
+python script.py
 ```
-Follow the on-screen instructions to join a meeting and begin recording.
 
-## Requirements
-- Node.js (version 12 or higher)
-- Zoom account
 
-## Features
-- Record audio and video from Zoom meetings
-- Manage recorded meeting files
-- User-friendly interface
-- Support for multiple audio/video codecs
