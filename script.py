@@ -7,6 +7,8 @@ import subprocess
 Meeting_id = 'your_meeting_id'
 Meeting_Passkey = 'your_meeting_passkey'
 
+pyautogui.PAUSE = 2.0
+
 # Before using change "screens" folder path to your own
 def join_meeting_zoom_OS_Lecture():
     subprocess.Popen("/AppData/Roaming/Zoom/bin/Zoom.exe") # Your Zoom path
