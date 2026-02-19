@@ -9,7 +9,7 @@ Meeting_Passkey = 'your_meeting_passkey'
 
 # Before using change "screens" folder path to your own
 def join_meeting_zoom_OS_Lecture():
-    subprocess.Popen("C:/Users/Kvova/AppData/Roaming/Zoom/bin/Zoom.exe")
+    subprocess.Popen("/AppData/Roaming/Zoom/bin/Zoom.exe") # Your Zoom path
     print("Waiting for Zoom to open...")
     time.sleep(15)
     location = pyautogui.locateOnScreen("D:/ZoomRecorder/screens/Join1.png")
