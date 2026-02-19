@@ -18,6 +18,8 @@ A simple tool that automatically joins a specified Zoom meeting. You can also co
    ```
 
 ## Usage
+## Before executing, make sure to update the paths in the script.
+
 To start the ZoomMeetRecorder, run the following command:
 ```bash
 python script.py
